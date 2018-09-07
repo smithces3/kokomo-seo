@@ -110,3 +110,7 @@
   }
   
 }
+body {
+  font-family: 'Rubik', 'Segoe UI', 'San Francisco', 'Calibri', Arial, sans-serif;
+  margin: 0;
+}
