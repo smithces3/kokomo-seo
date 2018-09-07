@@ -54,10 +54,7 @@
     display: block;
     text-align: left;
   }
-}
-
-/*Responsive Hover Blocks*/
-.c-hero-flex {
+    .c-hero-flex {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -112,3 +109,4 @@
     transition: .2s all;
   }
   
+}
