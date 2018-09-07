@@ -54,7 +54,12 @@
     display: block;
     text-align: left;
   }
-    .c-hero-flex {
+   body {
+  font-family: 'Rubik', 'Segoe UI', 'San Francisco', 'Calibri', Arial, sans-serif;
+  margin: 0;
+}
+
+.c-hero-flex {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -90,7 +95,7 @@
     }
     
     &:nth-child(1) {
-      background: #222 url(/images/stars.jpg?dpr=1&auto=format&crop=entropy&fit=crop&w=1000&h=1000&q=80&cs=tinysrgb) no-repeat center center;
+      background: #222 url(https://images.unsplash.com/photo-1417577097439-425fb7dec05e?dpr=1&auto=format&crop=entropy&fit=crop&w=1000&h=1000&q=80&cs=tinysrgb) no-repeat center center;
     }
     
     &:nth-child(2) {
@@ -109,8 +114,5 @@
     transition: .2s all;
   }
   
-}
-body {
-  font-family: 'Rubik', 'Segoe UI', 'San Francisco', 'Calibri', Arial, sans-serif;
-  margin: 0;
+  
 }
