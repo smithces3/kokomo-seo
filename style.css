@@ -95,7 +95,7 @@
     }
     
     &:nth-child(1) {
-      background: #222 url (images/stars.jpg) no-repeat center center;
+      background: #222 url ("stars.jpg") no-repeat center center;
     }
     
     &:nth-child(2) {
